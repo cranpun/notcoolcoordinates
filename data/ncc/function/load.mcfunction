@@ -14,3 +14,5 @@ scoreboard objectives add health dummy
 scoreboard players set @s health 1000
 scoreboard objectives add dflag dummy
 scoreboard players set @s dflag 0
+scoreboard objectives add tcnt dummy
+execute as @a at @s run scoreboard players set @s tcnt 0
