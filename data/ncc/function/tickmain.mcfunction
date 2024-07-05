@@ -8,7 +8,6 @@ execute as @a at @s store result score @s coordz run data get entity @s Pos[2] 1
 execute as @a at @s store result score @s dir run data get entity @s Rotation[0] 1
 
 ## 時間
-execute as @a at @s run scoreboard players set @s toh 1000
 execute as @a at @s store result score @s now run time query daytime
 execute as @a at @s run scoreboard players operation @s now /= @s toh
 
